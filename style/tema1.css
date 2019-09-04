@@ -1,0 +1,112 @@
+body{
+     background-color:aqua;
+     color:black;
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 0;
+}
+a{
+    text-decoration-style: none;
+}
+:active{
+    background-color:aquamarine;
+}
+a:hover{
+    color: blue;
+    background-color: rgb(10, 122, 85);
+}
+a:visited{
+    color:black;
+}
+.countainer{
+    background-color:aqua;
+    margin: 10px auto;
+    width: 90%;
+    overflow: auto;
+}
+.countainer-full{
+    background-color: brown;
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/*debug aid:begain*/
+.bg-cadet{
+   background-color:aqua;
+}
+/*debug aid:end*/
+.logo{
+    text-align: center; 
+
+}
+.menu-primer ul{
+    background-color:goldenrod;
+    border-radius: 4px;
+    margin: 10px auto;
+    padding: 10px auto;
+}
+.menu-primer li{
+    display: inline-block;
+}
+.menu-primer a{
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 8px 50px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.menu-primer a:hover{
+    background-color:chocolate;
+    color: aliceblue;
+
+}
+.menu-primer :active{
+    background-color: rgb(62, 62, 255);
+
+}
+.jumbotron{
+    background-color:rgb(2, 255, 175);
+    border: solid 2px;
+    border-radius: 40px;
+}
+.jumbotron h1{
+    margin: 20px 40px;
+    font-size: 24px;
+}
+.jumbotron h3{
+    margin: 20px 40px;
+    font-size: 16px;
+}
+.copyright p{
+    font-size: 14px;
+     
+}
+.box-left{
+    width:50.9%;
+    float: left;
+}
+.box-right{
+    width:48.9%;
+    float: right;
+}
+.box-footer{
+    float: left;
+    width: 30%;
+} 
+.box-heading{
+    background-color:green;
+    border: solid 1px black;
+    border-radius:5px 5px 0 0;
+    padding:10px auto;
+    text-transform: uppercase;
+}
+.box-content{
+    background-color: yellowgreen;
+    border: solid 2px black;
+    margin: 0px 0px;
+    padding: 10px auto;
+    height: auto;
+    border-radius:5px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
