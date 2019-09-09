@@ -1,0 +1,72 @@
+body{
+    background-image: url(angga1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a{
+    text-align: center;
+}
+:active{
+    background-repeat: no-repeat;
+}
+a:hover{
+    color:chocolate;
+    background-color: coral;
+}
+a:visited{
+    color:blue;
+}
+.countainer{
+
+    width: 90%;
+    margin: 20px auto;
+    overflow: auto;
+    widows: 15px;;
+}
+.menu-primer ul{
+    background-color:rgba(218, 159, 32, 0.438);
+    border-radius: 4px;
+    margin:10px auto;
+    padding:10px auto;
+    text-align: center;
+}
+.menu-primer li{
+    display: inline-block;
+}
+.menu-primer a{
+    background-color:rgb(210, 105, 30);
+    color: aliceblue;
+    padding: 8px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    border-radius: 20px;
+    margin: 10px;
+    border: solid;
+    display: inline-block;
+   
+}
+.menu-primer a:hover{
+    background-color:black ;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 8px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.menu-primer :active{
+    background-color: rgb(62, 62, 255);
+
+}
+.beler{
+    color: white;
+    background-image: url(gw2.jpg);
+    text-align: center;
+    border-radius: 40px;
+}
+.box-footer{
+    float: left;
+    width: 30%;
+} 

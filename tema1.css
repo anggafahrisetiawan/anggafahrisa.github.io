@@ -1,26 +1,23 @@
 body{
-    background-image: url(gw3.jpg);
+
+    background-image: url(images/wa2.jpg);
     background-size: cover;
-    background-attachment: fixed;
-   
 }
 a{
     text-align: center;
 }
 :active{
-    background-repeat: no-repeat;
+    background-image: url(wa2.jpg);
 }
 a:hover{
     color:chocolate;
     background-color: coral;
 }
 a:visited{
-    color:blue;
+    color:black;
 }
 .countainer{
 
-    width: 90%;
-    margin: 20px auto;
     overflow: auto;
     widows: 15px;;
 }
@@ -36,36 +33,37 @@ a:visited{
 /*debug aid:end*/
 .logo{
     text-align: center; 
-    font-size: 20px;
 
 }
 .menu-primer ul{
-    background-color:rgba(218, 159, 32, 0.438);
+    background-color:goldenrod;
     border-radius: 4px;
-    margin:10px auto;
-    padding:10px auto;
-    text-align: center;
+    margin: 10px auto;
+    padding: 10px auto;
 }
 .menu-primer li{
     display: inline-block;
 }
 .menu-primer a{
-    background-color:rgb(210, 105, 30);
+    background-color:chocolate;
     color: aliceblue;
     padding: 8px;
     letter-spacing: 1px;
     font-size: 25px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 10px;
-    border: solid;
+    padding: 10px auto;
+    border: solid 2px;
+    text-transform: uppercase;
     display: inline-block;
+
    
 }
 .menu-primer a:hover{
-    background-color:black ;
+   
     text-transform: uppercase;
     display: inline-block;
-    padding: 8px;
+    padding: 8px 50px;
     letter-spacing: 1px;
     font-size: 25px;
     border-radius: 10px;
@@ -75,20 +73,20 @@ a:visited{
 
 }
 .jumbotron{
-    background-color:rgba(255, 213, 0, 0.459);
+    background-color:gold;
     border: solid 2px;
     border-radius: 40px;
 }
 .jumbotron h1{
     margin: 20px 40px;
-    font-size: 40px;
+    font-size: 24px;
 }
 .jumbotron h3{
     margin: 20px 40px;
-    font-size: 10px;
+    font-size: 16px;
 }
 .copyright p{
-    font-size: 34px;
+    font-size: 14px;
      
 }
 .box-left{
@@ -104,51 +102,27 @@ a:visited{
     width: 30%;
 } 
 .box-heading{
-    background-color:rgba(210, 105, 30, 0.486);
-    border: solid 2px black;
+    background-color:chocolate;
+    border: solid 1px black;
     border-radius:5px 5px 0 0;
-    padding:auto;
-    text-align: center;
-    font-size: 20px;
+    padding:10px auto;
+    text-transform: uppercase;
 }
 .box-content{
-    background-color:rgba(255, 213, 0, 0.486);
+    background-color:gold;
     border: solid 2px black;
-    margin: auto;
-    padding: auto;
+    margin: 0px 0px;
+    padding: 10px auto;
     height: auto;
     border-radius:5px 5px;
-    font-size: 18px;
-    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .box-logo{
     text-transform: uppercase;
     display: inline-block;
-    letter-spacing: 50px;
-    font-size: 10px;
-    text-align: center;
-    padding: 10px 20px;
-}
-.beler{
-    color: white;
-    background-image: url(gw2.jpg);
-    text-align: center;
-    border-radius: 40px;
-}
-.saya{
-    color:blue;
-}
-.de{
-    background-image: url(gw.jpg);
-    border-radius: 40px;
-    border:solid;
-    text-align: center;
-        
-}
-.das{
-    background-image: url(goblok.png);
-    border-radius: 40px;
-    text-align: center;
-    background-size: auto;
+    padding: 8px 50px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    border-radius: 10px;
 }
 
